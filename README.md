@@ -31,11 +31,12 @@
             </td>
         </tr>
     </table>
+    <sup><small>*This repo contains only the HoloLens end implementation. To access our Android app, please <a href="https://github.com/ARamsay118/ARamsay-Android">CLICK HERE</a></small></sup>
 </div>
 <h5>
     Build With:
 </h5>
-<a href="">Unity</a> · <a href="">Android Studio</a> · <a href="">Mixed Reality Toolkit</a> · <a href="">Node.js</a>
+<a href="https://docs.unity3d.com/Manual/index.html">Unity</a> · <a href="https://developer.android.com/docs">Android Studio</a> · <a href="https://github.com/microsoft/MixedRealityToolkit-Unity">Mixed Reality Toolkit</a> · <a href="https://nodejs.org/en/docs/">Node.js</a><br>
 
 ## 1 Introduction and Demo
 
