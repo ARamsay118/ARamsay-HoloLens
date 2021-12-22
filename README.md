@@ -41,7 +41,7 @@
 
 ARamsay is a HoloLens-based AR application designed to improve people's cooking/culinary learning experience. To give you a glimpse of how ARamsay works and its basic usage, here's a quick <a href="https://www.bilibili.com/video/BV1bR4y1W7h2">demo video</a>:
 
-<div  align="center"><img src="/Media/demo-cover.png" href="https://www.bilibili.com/video/BV1bR4y1W7h2" width="50%"></img></div>
+[![ARamsay-Demo-Cover](/Media/demo-cover.png)](https://www.bilibili.com/video/BV1bR4y1W7h2)
 
 <i><small>*This is a 4-week-long course project for CSE 118 Ubiquitous Computing at UCSD.</small></i>
 
@@ -81,7 +81,7 @@ All recipe data comes from <a href="https://spoonacular.com/">spoonacular</a>.
 
 Between the HoloLens and the client-side application, we added another layer: an AWS server built with Node.js and Express framework to better manage the user system (in the future). The overall structure of ARamsay is shown below:
 
-<div align="center"><img src="/Media/architecture.png" width="50%"></img></div>
+![Architecture](/Media/architecture.png)
 
 ### 3.5 Security
 
@@ -109,21 +109,21 @@ The way users interact with ARamsay is of utmost importance for this project, as
 - "Pinch and drag"
 
   Users were required to pinch at the instruction panel and then drag it from one side to the other for at least 10 centimeters in order to turn pages. It may seems intuitive at first, but we soon found that it is not very accurate and reliable for HoloLens to recognize it, because of the complexity of this gesture ("pinch", "drag" and "release"). We didn't adopt it eventually.
-  <div align="center"><img src="/Media/1st%20version%20of%20holo.png" width="50%"></img></div>
+  ![pinch-and-drag](/Media/1st%20version%20of%20holo.png)
 
 - Button Clicking
 
   The most common and easy-to-learn interaction method. However, it is not always easy for users to target at a specific button then click it, so it is also not the most ideal way.
-  <div align="center"><img src="/Media/2nd%20version%20of%20holo.png" width="50%"></img></div>
+  ![click](/Media/2nd%20version%20of%20holo.png)
 
 - Airtap
 
   Reflecting on the efforts we tried before, we further thought about whether users could perform just one action in a wide area so that they don't need to spend time finding and targeting a specific button while the gesture itself is also easy enough for HoloLens to recognize it. Then we came up with the Airtap gesture (As shown below). 
 
-  <div align="center"><img src="/Media/air-tap-animation.gif"></img></div>
+  ![airtap-gesture](/Media/air-tap-animation.gif)
 
   We drew a vertical line in the middle of users' view. "Airtap" on the left side would show the previous step and "Airtap" on the right side would show the next step. After experimenting, we found that this is the ideal gesture for ARamsay: simple-to-use and easy to be recognized. So eventually we chose the Airtap gesture.
-  <div align="center"><img src="/Media/3rd%20version%20of%20holo.png" width="50%"></img></div>
+  ![airtap](/Media/3rd%20version%20of%20holo.png)
 
 ## 5 Features
 
