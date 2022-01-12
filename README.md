@@ -31,7 +31,6 @@
             </td>
         </tr>
     </table>
-    <sup><small>*This repo contains only the HoloLens end implementation. To access our Android app, please <a href="https://github.com/ARamsay118/ARamsay-Android">CLICK HERE</a></small></sup>
 </div>
 <h5>
     Build With:
