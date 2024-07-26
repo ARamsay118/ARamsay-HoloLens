@@ -100,7 +100,7 @@ As shown in the Demo video above, the position and angle of all components in x,
 
 ### 4.2 Android UI
 
-See <a href="#">here</a>
+See <a href="https://github.com/ARamsay118/ARamsay-Android">here</a>
 
 ### 4.3 Interaction
 
